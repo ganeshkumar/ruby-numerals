@@ -3,13 +3,13 @@
 To Run the app
 
 1) bundle install
+<br />
 2) bundle exec rake db:create
+<br />
 3) bundle exec rake db:migrate
+<br />
 4) bundle exec rails s
-
-http://localhost:3000
-
+<br />
 5) To run test cases
-# MiniTest is a fast and lightweight testing library
-#
+<br />
 bundle exec rake minitest:controllers
