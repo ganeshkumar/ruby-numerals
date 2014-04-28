@@ -3,13 +3,18 @@
 To Run the app
 
 1) bundle install
-<br />
+
+
 2) bundle exec rake db:create
-<br />
+
+
 3) bundle exec rake db:migrate
-<br />
+
+
 4) bundle exec rails s
-<br />
+
+
 5) To run test cases
-<br />
+
+
 bundle exec rake minitest:controllers
