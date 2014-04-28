@@ -1,0 +1,10 @@
+<%= form_tag number_to_humanize_path, method: "GET", remote: true do %>
+  <div>
+    Please enter <%= text_field_tag :number, nil, placeholder: 'Number' %>
+  </div>
+  <div id="output"></div>
+  <div>
+    <%= submit_tag "Submit" %>
+  </div>
+<% end %>
+

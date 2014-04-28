@@ -1,0 +1,2 @@
+module NumberToHumanizeHelper
+end
